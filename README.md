@@ -10,7 +10,7 @@ Struggling to move the folders to be more readable/organized, but the goal is to
     - .DS_Store
   
 2. ios app
-  - Crowded
-  - CrowdedUITests
-  - CrowdedTests
-  - Crowded.xcodeproj
+    - Crowded
+    - CrowdedUITests
+    - CrowdedTests
+    - Crowded.xcodeproj

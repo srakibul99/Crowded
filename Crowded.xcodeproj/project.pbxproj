@@ -12,8 +12,8 @@
 		AE51A26024D29BD900A94D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE51A25E24D29BD900A94D98 /* Main.storyboard */; };
 		AE51A26224D29BDB00A94D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE51A26124D29BDB00A94D98 /* Assets.xcassets */; };
 		AE51A26524D29BDB00A94D98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE51A26324D29BDB00A94D98 /* LaunchScreen.storyboard */; };
-		AE51A27024D29BDB00A94D98 /* throngedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51A26F24D29BDB00A94D98 /* throngedTests.swift */; };
-		AE51A27B24D29BDC00A94D98 /* throngedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51A27A24D29BDC00A94D98 /* throngedUITests.swift */; };
+		AE51A27024D29BDB00A94D98 /* CrowdedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51A26F24D29BDB00A94D98 /* CrowdedTests.swift */; };
+		AE51A27B24D29BDC00A94D98 /* CrowdedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51A27A24D29BDC00A94D98 /* CrowdedUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,18 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AE51A25724D29BD900A94D98 /* thronged.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thronged.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE51A25724D29BD900A94D98 /* Crowded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crowded.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE51A25A24D29BD900A94D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE51A25C24D29BD900A94D98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE51A25F24D29BD900A94D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE51A26124D29BDB00A94D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE51A26424D29BDB00A94D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE51A26624D29BDB00A94D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE51A26B24D29BDB00A94D98 /* throngedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = throngedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE51A26F24D29BDB00A94D98 /* throngedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = throngedTests.swift; sourceTree = "<group>"; };
+		AE51A26B24D29BDB00A94D98 /* CrowdedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrowdedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE51A26F24D29BDB00A94D98 /* CrowdedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdedTests.swift; sourceTree = "<group>"; };
 		AE51A27124D29BDB00A94D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE51A27624D29BDB00A94D98 /* throngedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = throngedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE51A27A24D29BDC00A94D98 /* throngedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = throngedUITests.swift; sourceTree = "<group>"; };
+		AE51A27624D29BDB00A94D98 /* CrowdedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrowdedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE51A27A24D29BDC00A94D98 /* CrowdedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdedUITests.swift; sourceTree = "<group>"; };
 		AE51A27C24D29BDC00A94D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,9 +77,9 @@
 		AE51A24E24D29BD900A94D98 = {
 			isa = PBXGroup;
 			children = (
-				AE51A25924D29BD900A94D98 /* thronged */,
-				AE51A26E24D29BDB00A94D98 /* throngedTests */,
-				AE51A27924D29BDC00A94D98 /* throngedUITests */,
+				AE51A25924D29BD900A94D98 /* Crowded */,
+				AE51A26E24D29BDB00A94D98 /* CrowdedTests */,
+				AE51A27924D29BDC00A94D98 /* CrowdedUITests */,
 				AE51A25824D29BD900A94D98 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		AE51A25824D29BD900A94D98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE51A25724D29BD900A94D98 /* thronged.app */,
-				AE51A26B24D29BDB00A94D98 /* throngedTests.xctest */,
-				AE51A27624D29BDB00A94D98 /* throngedUITests.xctest */,
+				AE51A25724D29BD900A94D98 /* Crowded.app */,
+				AE51A26B24D29BDB00A94D98 /* CrowdedTests.xctest */,
+				AE51A27624D29BDB00A94D98 /* CrowdedUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE51A25924D29BD900A94D98 /* thronged */ = {
+		AE51A25924D29BD900A94D98 /* Crowded */ = {
 			isa = PBXGroup;
 			children = (
 				AE51A25A24D29BD900A94D98 /* AppDelegate.swift */,
@@ -104,33 +104,33 @@
 				AE51A26324D29BDB00A94D98 /* LaunchScreen.storyboard */,
 				AE51A26624D29BDB00A94D98 /* Info.plist */,
 			);
-			path = thronged;
+			path = Crowded;
 			sourceTree = "<group>";
 		};
-		AE51A26E24D29BDB00A94D98 /* throngedTests */ = {
+		AE51A26E24D29BDB00A94D98 /* CrowdedTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE51A26F24D29BDB00A94D98 /* throngedTests.swift */,
+				AE51A26F24D29BDB00A94D98 /* CrowdedTests.swift */,
 				AE51A27124D29BDB00A94D98 /* Info.plist */,
 			);
-			path = throngedTests;
+			path = CrowdedTests;
 			sourceTree = "<group>";
 		};
-		AE51A27924D29BDC00A94D98 /* throngedUITests */ = {
+		AE51A27924D29BDC00A94D98 /* CrowdedUITests */ = {
 			isa = PBXGroup;
 			children = (
-				AE51A27A24D29BDC00A94D98 /* throngedUITests.swift */,
+				AE51A27A24D29BDC00A94D98 /* CrowdedUITests.swift */,
 				AE51A27C24D29BDC00A94D98 /* Info.plist */,
 			);
-			path = throngedUITests;
+			path = CrowdedUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE51A25624D29BD900A94D98 /* thronged */ = {
+		AE51A25624D29BD900A94D98 /* Crowded */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE51A27F24D29BDC00A94D98 /* Build configuration list for PBXNativeTarget "thronged" */;
+			buildConfigurationList = AE51A27F24D29BDC00A94D98 /* Build configuration list for PBXNativeTarget "Crowded" */;
 			buildPhases = (
 				AE51A25324D29BD900A94D98 /* Sources */,
 				AE51A25424D29BD900A94D98 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = thronged;
+			name = Crowded;
 			productName = thronged;
-			productReference = AE51A25724D29BD900A94D98 /* thronged.app */;
+			productReference = AE51A25724D29BD900A94D98 /* Crowded.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AE51A26A24D29BDB00A94D98 /* throngedTests */ = {
+		AE51A26A24D29BDB00A94D98 /* CrowdedTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE51A28224D29BDC00A94D98 /* Build configuration list for PBXNativeTarget "throngedTests" */;
+			buildConfigurationList = AE51A28224D29BDC00A94D98 /* Build configuration list for PBXNativeTarget "CrowdedTests" */;
 			buildPhases = (
 				AE51A26724D29BDB00A94D98 /* Sources */,
 				AE51A26824D29BDB00A94D98 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				AE51A26D24D29BDB00A94D98 /* PBXTargetDependency */,
 			);
-			name = throngedTests;
+			name = CrowdedTests;
 			productName = throngedTests;
-			productReference = AE51A26B24D29BDB00A94D98 /* throngedTests.xctest */;
+			productReference = AE51A26B24D29BDB00A94D98 /* CrowdedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AE51A27524D29BDB00A94D98 /* throngedUITests */ = {
+		AE51A27524D29BDB00A94D98 /* CrowdedUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE51A28524D29BDC00A94D98 /* Build configuration list for PBXNativeTarget "throngedUITests" */;
+			buildConfigurationList = AE51A28524D29BDC00A94D98 /* Build configuration list for PBXNativeTarget "CrowdedUITests" */;
 			buildPhases = (
 				AE51A27224D29BDB00A94D98 /* Sources */,
 				AE51A27324D29BDB00A94D98 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				AE51A27824D29BDC00A94D98 /* PBXTargetDependency */,
 			);
-			name = throngedUITests;
+			name = CrowdedUITests;
 			productName = throngedUITests;
-			productReference = AE51A27624D29BDB00A94D98 /* throngedUITests.xctest */;
+			productReference = AE51A27624D29BDB00A94D98 /* CrowdedUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE51A25224D29BD900A94D98 /* Build configuration list for PBXProject "thronged" */;
+			buildConfigurationList = AE51A25224D29BD900A94D98 /* Build configuration list for PBXProject "Crowded" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE51A25624D29BD900A94D98 /* thronged */,
-				AE51A26A24D29BDB00A94D98 /* throngedTests */,
-				AE51A27524D29BDB00A94D98 /* throngedUITests */,
+				AE51A25624D29BD900A94D98 /* Crowded */,
+				AE51A26A24D29BDB00A94D98 /* CrowdedTests */,
+				AE51A27524D29BDB00A94D98 /* CrowdedUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE51A27024D29BDB00A94D98 /* throngedTests.swift in Sources */,
+				AE51A27024D29BDB00A94D98 /* CrowdedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE51A27B24D29BDC00A94D98 /* throngedUITests.swift in Sources */,
+				AE51A27B24D29BDC00A94D98 /* CrowdedUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		AE51A26D24D29BDB00A94D98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AE51A25624D29BD900A94D98 /* thronged */;
+			target = AE51A25624D29BD900A94D98 /* Crowded */;
 			targetProxy = AE51A26C24D29BDB00A94D98 /* PBXContainerItemProxy */;
 		};
 		AE51A27824D29BDC00A94D98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AE51A25624D29BD900A94D98 /* thronged */;
+			target = AE51A25624D29BD900A94D98 /* Crowded */;
 			targetProxy = AE51A27724D29BDC00A94D98 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,7 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = thronged/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Crowded/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = thronged/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Crowded/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,7 +478,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thronged.app/thronged";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crowded.app/Crowded";
 			};
 			name = Debug;
 		};
@@ -498,7 +498,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thronged.app/thronged";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crowded.app/Crowded";
 			};
 			name = Release;
 		};
@@ -543,7 +543,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE51A25224D29BD900A94D98 /* Build configuration list for PBXProject "thronged" */ = {
+		AE51A25224D29BD900A94D98 /* Build configuration list for PBXProject "Crowded" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE51A27D24D29BDC00A94D98 /* Debug */,
@@ -552,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE51A27F24D29BDC00A94D98 /* Build configuration list for PBXNativeTarget "thronged" */ = {
+		AE51A27F24D29BDC00A94D98 /* Build configuration list for PBXNativeTarget "Crowded" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE51A28024D29BDC00A94D98 /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE51A28224D29BDC00A94D98 /* Build configuration list for PBXNativeTarget "throngedTests" */ = {
+		AE51A28224D29BDC00A94D98 /* Build configuration list for PBXNativeTarget "CrowdedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE51A28324D29BDC00A94D98 /* Debug */,
@@ -570,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE51A28524D29BDC00A94D98 /* Build configuration list for PBXNativeTarget "throngedUITests" */ = {
+		AE51A28524D29BDC00A94D98 /* Build configuration list for PBXNativeTarget "CrowdedUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE51A28624D29BDC00A94D98 /* Debug */,

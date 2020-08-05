@@ -19,7 +19,7 @@ Struggling to move the folders to be more readable/organized, but the goal is to
     
 ## Flask Website
 
-Our website is built with Python (and Flask), HTML, and CSS. It's a basic website that takes in user input on Location/query, as well the user's time and weekday that they are using the application, in order to make Foursquare API calls to find venues nearby that match the query. The user will then see the crowdedness/business of that venue.
+Our website is built with Python (and Flask), HTML, and CSS. It's a basic website that takes in user input on Location/query, as well the user's time and weekday that they are using the application, in order to make Foursquare API calls to find venues nearby that match the query. The user will then see the crowdedness/business of that venue. Next things to improve are UI (changing background picture, having the page scale with the size of the window, etc.).
 
 
 ## iOS

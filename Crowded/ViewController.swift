@@ -46,8 +46,8 @@ class ViewController: UIViewController {
  */
         // call API and find top 3 results
         // url - 4square explore
-        let CLIENT_ID = "UNXKPYYYPY2PQFGNYL3KXWTKGNT20SO4ISO0YDROW0HORX2W"
-        let CLIENT_SECRET = "QWPXY050I0NWIEIGIGHGNUBM0XXWN42SNS2XGBGKL3RXBKP3"
+        let CLIENT_ID = ""
+        let CLIENT_SECRET = ""
         
         /**
         if let url = URL(string:  "https ://api.foursquare.com/v2/venues/explore?near=SanJose,CA&v=20200607&limit=3&client_id=UNXKPYYYPY2PQFGNYL3KXWTKGNT20SO4ISO0YDROW0HORX2W&client_secret=QWPXY050I0NWIEIGIGHGNUBM0XXWN42SNS2XGBGKL3RXBKP3&query=coffee") {

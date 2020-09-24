@@ -2,7 +2,6 @@
 
 ## Structure
 
-Struggling to move the folders to be more readable/organized, but the goal is to have 2 folders:
 1. website
     - website.py
     - .idea

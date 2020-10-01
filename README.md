@@ -30,4 +30,3 @@ Here's a walkthrough of our iOS progress:
 <img src='https://imgur.com/nST4KvW.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
->>>>>>> ee31669e12da9c73f353bb45fde53020850c7b23

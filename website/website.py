@@ -16,8 +16,8 @@ url_hours = 'https://api.foursquare.com/v2/venues/{}/hours'
 url_photos = 'https://api.foursquare.com/v2/venues/{}/photos'
 url_here = 'https://api.foursquare.com/v2/venues/{}'
 
-CLIENT_ID = 'UNXKPYYYPY2PQFGNYL3KXWTKGNT20SO4ISO0YDROW0HORX2W'
-CLIENT_SECRET = 'QWPXY050I0NWIEIGIGHGNUBM0XXWN42SNS2XGBGKL3RXBKP3'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 
 app=Flask(__name__)
 
